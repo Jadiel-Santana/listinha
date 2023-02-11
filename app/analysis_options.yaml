@@ -1,0 +1,4 @@
+include: package:flutterando_analysis/flutter.yaml
+
+linter:
+  rules:
