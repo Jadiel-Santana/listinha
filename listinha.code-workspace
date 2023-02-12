@@ -8,6 +8,6 @@
 		}
 	],
 	"settings": {
-		"dart.lineLength": 80
+		"dart.lineLength": 120
 	}
 }
