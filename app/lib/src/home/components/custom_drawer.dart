@@ -35,6 +35,11 @@ class CustomDrawer extends StatelessWidget {
           label: Text('Configurações'),
         ),
       ],
+      onDestinationSelected: (index) {
+        if (index == 1) {
+          Navigator.popAndPushNamed(context, '/settings');
+        }
+      },
     );
   }
 }
