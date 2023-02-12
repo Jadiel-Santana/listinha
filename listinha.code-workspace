@@ -7,5 +7,7 @@
 			"path": "backend"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"dart.lineLength": 80
+	}
 }

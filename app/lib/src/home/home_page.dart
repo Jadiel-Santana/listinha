@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../shared/components/user_image_button.dart';
+import 'components/custom_drawer.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({
@@ -19,6 +20,7 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
+      drawer: const CustomDrawer(),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(16),
