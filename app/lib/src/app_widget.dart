@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../main.dart';
+import 'home/home_page.dart';
 import 'shared/themes/themes.dart';
 
 class AppWidget extends StatelessWidget {
@@ -16,7 +16,7 @@ class AppWidget extends StatelessWidget {
       // themeMode: ThemeMode.light,
       theme: lightTheme,
       darkTheme: darkTheme,
-      home: const MyHomePage(),
+      home: const HomePage(),
     );
   }
 }
