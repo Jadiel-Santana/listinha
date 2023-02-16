@@ -80,7 +80,7 @@ class SettingsPage extends StatelessWidget {
                       ),
                       const SizedBox(height: 8),
                       OutlinedButton(
-                        onPressed: () {},
+                        onPressed: appStore.deleteSettings,
                         child: Text(
                           'Apagar cache e reiniciar o app',
                           style: Theme.of(context).textTheme.titleMedium,
